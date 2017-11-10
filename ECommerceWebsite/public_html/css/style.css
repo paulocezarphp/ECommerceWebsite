@@ -95,28 +95,26 @@ a{
 #centro{
     
     position:absolute;
-    top:100px;
+    top:310px;
     left:50%;
     margin-left:-450px;
     width:900px;
-    height:600px;
     background:#f2f2f2;
     
 }
 
 .caixa{
     
-    width:200px;
+    width:150px;
     background:#dedede;
     padding: 10px;
-    border-radius:5px;
-    border-bottom: 7px solid #99cc00;
-    border-top: 7px solid #99cc00;
-    border-left: 2px solid #99cc00;
-    border-right: 2px solid #99cc00;
+    border-radius:3px;
     float:left;
     margin: 15px 10px;
-    
+    -webkit-box-shadow: 0px 1px 25px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 25px -4px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 25px -4px rgba(0,0,0,0.75);
+
 }
 
 
@@ -124,21 +122,120 @@ a{
 .caixa_imagem{
     
     cursor:pointer;
+    border-radius:2px;
+    width:150px;
+    height:100px;
     
 }
 
 .botao{
     
-    background:#333333;
-    color:#f2f2f2;
-    padding:10px 70px;
+    background:#99cc00;
+    color:#4d6600;
+    padding:10px 45px;
     border:none;
     cursor:pointer;
+    outline: 0 none;
     
 }
 
 .botao:hover{
     
-    background:#111111;
+    color:#f2f2f2;
+    background:#333;
+    
+}
+
+.botao2{
+    
+    width: 100%;
+    background:#f2f2f2;
+    color:#8c1aff;
+    padding:10px 20px;
+    border:2px solid #8c1aff;   
+    cursor:pointer;
+    margin:5px 0px;
+    outline: 0 none;
+    
+}
+
+.botao2:hover{
+    
+    color:#f2f2f2;
+    background:#333;
+    
+}
+
+.botao3{
+    
+    background:#f2f2f2;
+    color:#608000;
+    padding:10px 70px;
+    border:2px solid #608000;   
+    cursor:pointer;
+    margin:5px 0px;
+    outline: 0 none;
+    
+}
+
+.botao3:hover{
+    
+    color:#f2f2f2;
+    background:#333;
+    
+}
+
+#busca{
+    
+    width:230px; 
+    padding:5px 8px;
+    border:none;
+    border-radius:3px;
+    outline: 0 none;
+    color:#bf80ff;
+    margin:0px 7px;
+    border: 1px solid #4d0099;
+        
+}
+
+h1{
+    
+    color:#99cc00;
+    
+}
+
+h3{
+    
+    color:#8c1aff;
+    
+}
+
+.preco{
+    color:#8c1aff;
+}
+
+#tela{
+    
+    position: absolute;
+    top:55px;
+    left:0px;
+    width:100%;
+    height:300px;
+    background:#99cc00; 
+    
+    
+}
+
+#superTexto{
+    
+    font-size: 30px;
+    padding: 60px;
+    
+}
+
+#footer{
+    
+    width: 500px;
+    padding: 50px;
     
 }
