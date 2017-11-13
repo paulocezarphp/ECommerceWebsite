@@ -211,7 +211,9 @@ h3{
 }
 
 .preco{
+    
     color:#8c1aff;
+    
 }
 
 #tela{
@@ -221,9 +223,9 @@ h3{
     left:0px;
     width:100%;
     height:300px;
-    background:#000;
-    opacity: 0.85;
-    filter: alpha(opacity=85);
+    background:#5900b3;
+    opacity: 0.95;
+    filter: alpha(opacity=95);
     
 }
 
@@ -239,5 +241,43 @@ h3{
     
     width: 500px;
     padding: 50px;
+    
+}
+
+#lista{
+    
+    position:fixed;
+    right:5px;
+    bottom:5px;
+    width:170px;
+    padding:10px;
+    border-radius:3px;
+    background:#f2f2f2;
+    color:#8c1aff;
+    
+}
+
+#mais{
+    
+    padding:0px 6px;
+    background:#d6d6d6;
+    color:#888;
+    border-radius:50px;   
+    margin:0px 90px;
+    cursor: pointer;
+    
+}
+
+#mais:hover{
+    
+    background:#888;
+    color:#dedede;
+    
+}
+
+.elementoLista{
+    
+    color:#330066;
+    font-size: 13px;
     
 }
