@@ -67,11 +67,13 @@ $(document).ready(function(){
        if(controlebar === 0){
            
           $("#naLista").hide("slow");  
+          $("#mais").text(" - ");
             
        }
        else{
          
          $("#naLista").show("slow");
+         $("#mais").text(" + ");
             
        }    
                     

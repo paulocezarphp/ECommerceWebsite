@@ -95,11 +95,12 @@ a{
 #centro{
     
     position:absolute;
-    top:310px;
+    top:350px;
     left:50%;
     margin-left:-450px;
     width:900px;
     background:#f2f2f2;
+    z-index:10;
     
 }
 
@@ -226,6 +227,7 @@ h3{
     background:#5900b3;
     opacity: 0.95;
     filter: alpha(opacity=95);
+    z-index:11;
     
 }
 
@@ -280,4 +282,29 @@ h3{
     color:#330066;
     font-size: 13px;
     
+}
+
+#tags{
+    
+    margin: 50px 0;
+    
+    
+}
+
+.tag_elemento{
+    
+    padding:4px 3px;
+    margin:5px 5px;
+    float:left;
+    background: #f2f2f2;
+    border: 0.5px solid #ccc;
+    cursor:pointer;
+    border-radius:3px;
+    
+}
+
+.tag_elemento:hover{
+    
+     border: 0.5px solid #888;
+   
 }
