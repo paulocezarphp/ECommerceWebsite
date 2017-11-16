@@ -10,6 +10,10 @@ $(document).ready(function(){
     var nocarrinho = [];   
     var controlebar = 0;
     
+    
+    
+    
+    
     /*
      * Aqui nós atualizamos o numero de elementos do carrinho
      */
@@ -46,10 +50,13 @@ $(document).ready(function(){
     
     $(".evento_comprar").click(function() {
        
-       AddCarrinho();
-       AtualizarCarrinho(); 
+        AddCarrinho();
+        AtualizarCarrinho(); 
        
-       $("#naLista").append("<div class='elementoLista'>Comprou</div>");
+        var valor = $(".botao").attr("value");
+       
+        $("#naLista").append("<div class='elementoLista'>" + valor + "</div>");
+       
        
     });
     
