@@ -280,14 +280,17 @@ h3{
 .elementoLista{
     
     color:#330066;
+    background:#dedede;
+    padding:5px;
+    margin: 5px 0px;
     font-size: 13px;
+    border-radius:4px;
     
 }
 
 #tags{
     
     margin: 50px 0;
-    
     
 }
 
@@ -300,6 +303,7 @@ h3{
     border: 0.5px solid #ccc;
     cursor:pointer;
     border-radius:3px;
+    outline: 0 none;
     
 }
 

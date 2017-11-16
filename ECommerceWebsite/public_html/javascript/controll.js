@@ -48,16 +48,84 @@ $(document).ready(function(){
      * Aqui nós colocamos o elemento dentro da lista do carrinho 
      */
     
-    $(".evento_comprar").click(function() {
+    $("#v1").click(function() {
        
-        AddCarrinho();
-        AtualizarCarrinho(); 
+       var produto = "Camisa Niker v1";
+       var preco = 134.99;            
+       AddCarrinho();
+       AtualizarCarrinho(); 
+       $("#naLista").append("<div class='elementoLista'>" + produto + " <br> <strong>R$:</strong> " + preco + "</div>");   
+            
+    });
+    
+    $("#v2").click(function() {
        
-        var valor = $(".botao").attr("value");
+       var produto2 = "Camisa Niker v2";
+       var preco2 = 234.99;            
+       AddCarrinho();
+       AtualizarCarrinho(); 
+       $("#naLista").append("<div class='elementoLista'>" + produto2 + " <br> <strong>R$:</strong> " + preco2 + "</div>");   
+            
+    });
+    
+    $("#v3").click(function() {
        
-        $("#naLista").append("<div class='elementoLista'>" + valor + "</div>");
+       var produto3 = "Camisa Niker v3";
+       var preco3 = 77.99;            
+       AddCarrinho();
+       AtualizarCarrinho(); 
+       $("#naLista").append("<div class='elementoLista'>" + produto3 + " <br> <strong>R$:</strong> " + preco3 + "</div>");   
+            
+    });
+    
+    $("#v4").click(function() {
        
+       var produto4 = "Camisa Niker v4";
+       var preco4 = 422.99;            
+       AddCarrinho();
+       AtualizarCarrinho(); 
+       $("#naLista").append("<div class='elementoLista'>" + produto4 + " <br> <strong>R$:</strong> " + preco4 + "</div>");   
+            
+    });
+    
+    $("#v5").click(function() {
        
+       var produto5 = "Camisa Niker v5";
+       var preco5 = 34.99;            
+       AddCarrinho();
+       AtualizarCarrinho(); 
+       $("#naLista").append("<div class='elementoLista'>" + produto5 + " <br> <strong>R$:</strong> " + preco5 + "</div>");   
+            
+    });
+    
+    $("#v6").click(function() {
+       
+       var produto6 = "Camisa Niker v6";
+       var preco6 = 23.23;            
+       AddCarrinho();
+       AtualizarCarrinho(); 
+       $("#naLista").append("<div class='elementoLista'>" + produto6 + " <br> <strong>R$:</strong> " + preco6 + "</div>");   
+            
+    });
+    
+    $("#v7").click(function() {
+       
+       var produto7 = "Camisa Niker v7";
+       var preco7 = 42.23;            
+       AddCarrinho();
+       AtualizarCarrinho(); 
+       $("#naLista").append("<div class='elementoLista'>" + produto7 + " <br> <strong>R$:</strong> " + preco7 + "</div>");   
+            
+    });
+    
+    $("#v8").click(function() {
+       
+       var produto8 = "Camisa Niker v8";
+       var preco8 = 13.99;            
+       AddCarrinho();
+       AtualizarCarrinho(); 
+       $("#naLista").append("<div class='elementoLista'>" + produto8 + " <br> <strong>R$:</strong> " + preco8 + "</div>");   
+            
     });
     
     /*
