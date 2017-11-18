@@ -95,7 +95,7 @@ a{
 #centro{
     
     position:absolute;
-    top:350px;
+    top:280px;
     left:50%;
     margin-left:-450px;
     width:900px;
@@ -169,20 +169,20 @@ a{
 
 .botao3{
     
-    background:#f2f2f2;
-    color:#608000;
-    padding:10px 70px;
-    border:2px solid #608000;   
+    background:#000;
+    color:#f2f2f2;
+    padding:10px 70px;   
     cursor:pointer;
     margin:5px 0px;
     outline: 0 none;
+    border:0;
     
 }
 
 .botao3:hover{
     
     color:#f2f2f2;
-    background:#333;
+    background:#222;
     
 }
 
@@ -219,15 +219,15 @@ h3{
 
 #tela{
     
-    position: absolute;
+    position: fixed;
     top:55px;
     left:0px;
     width:100%;
-    height:300px;
+    height:100%;
     background:#5900b3;
-    opacity: 0.95;
-    filter: alpha(opacity=95);
-    z-index:11;
+    opacity: 0.75;
+    filter: alpha(opacity=75);
+    z-index:1;
     
 }
 
@@ -235,7 +235,7 @@ h3{
     
     font-size: 30px;
     padding: 60px;
-    color:#f2f2f2;
+    color:#fff;
     
 }
 
@@ -256,6 +256,7 @@ h3{
     border-radius:3px;
     background:#f2f2f2;
     color:#8c1aff;
+    z-index:12;
     
 }
 
