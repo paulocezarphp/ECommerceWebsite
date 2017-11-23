@@ -44,6 +44,27 @@ $(document).ready(function(){
         
     }
     
+    
+    
+    $(".caixa_imagem").click(function() {
+        $("#fundo-cor").fadeIn(500); 
+        $("#imagem-cor").fadeIn(500);
+        $("#botao-cor").fadeIn(500);
+    });
+    
+    $("#botao-cor").click(function() {
+        $("#fundo-cor").fadeOut(500); 
+        $("#imagem-cor").fadeOut(500);
+        $("#botao-cor").fadeOut(500);
+    });
+    
+    $("#fundo-cor").click(function() {
+        $("#fundo-cor").fadeOut(500); 
+        $("#imagem-cor").fadeOut(500);
+        $("#botao-cor").fadeOut(500);
+    });
+    
+    
     /*
      * Aqui nós colocamos o elemento dentro da lista do carrinho 
      */
@@ -142,13 +163,13 @@ $(document).ready(function(){
        if(controlebar === 0){
            
           $("#naLista").hide("slow");  
-          $("#mais").text(" - ");
+          $("#mais").text(" + ");
             
        }
        else{
          
          $("#naLista").show("slow");
-         $("#mais").text(" + ");
+         $("#mais").text(" - ");
             
        }    
                     
